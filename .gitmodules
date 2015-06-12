@@ -1,0 +1,3 @@
+[submodule "modules/mruby"]
+	path = modules/mruby
+	url = https://github.com/mruby/mruby
