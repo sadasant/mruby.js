@@ -58,36 +58,25 @@ MRuby::Build.new do |conf|
   conf.gem :core => "mruby-toplevel-ext"
 
   # Use to Dir functions, used for mruby-require
-  conf.gem "mrbgems/mruby-hs-regexp"
+  conf.gem "modules/mruby-hs-regexp"
 
   # Use to TestUnit
-  conf.gem "mrbgems/mruby-mtest"
+  conf.gem "modules/mruby-mtest"
 
   # Use to pack unpack functions
-  conf.gem "mrbgems/mruby-io"
-  conf.gem "mrbgems/mruby-pack"
-  conf.gem "mrbgems/mruby-sleep"
-  conf.gem "mrbgems/mruby-polarssl"
-  conf.gem "mrbgems/mruby-socket"
-  conf.gem "mrbgems/mruby-dir"
-  conf.gem "mrbgems/mruby-tempfile"
-  conf.gem "mrbgems/mruby-require"
-  conf.gem "mrbgems/mruby-qrcode"
-  conf.gem "mrbgems/mruby-miniz"
-  conf.gem "mrbgems/mruby-json"
-  conf.gem "mrbgems/mruby-context"
-  conf.gem "mrbgems/mruby-msgpack"
-
-  # conf.gem 'mrbgems/mruby-dir'
-  # conf.gem 'mrbgems/mruby-io'
-  # conf.gem 'mrbgems/mruby-mtest'
-  # conf.gem 'mrbgems/mruby-pack'
-  # conf.gem 'mrbgems/mruby-polarssl'
-  # conf.gem 'mrbgems/mruby-print'
-  # conf.gem 'mrbgems/mruby-regexp-pcre'
-  # # conf.gem 'mrbgems/mruby-require'
-  # conf.gem 'mrbgems/mruby-socket'
-  # conf.gem 'mrbgems/mruby-tempfile'
+  conf.gem "modules/mruby-io"
+  conf.gem "modules/mruby-pack"
+  conf.gem "modules/mruby-sleep"
+  conf.gem "modules/mruby-polarssl"
+  conf.gem "modules/mruby-socket"
+  conf.gem "modules/mruby-dir"
+  conf.gem "modules/mruby-tempfile"
+  conf.gem "modules/mruby-require"
+  conf.gem "modules/mruby-qrcode"
+  conf.gem "modules/mruby-miniz"
+  conf.gem "modules/mruby-json"
+  conf.gem "modules/mruby-context"
+  conf.gem "modules/mruby-msgpack"
 
   conf.gembox 'default'
 end

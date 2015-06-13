@@ -1,3 +1,48 @@
 [submodule "modules/mruby"]
 	path = modules/mruby
 	url = https://github.com/mruby/mruby
+[submodule "modules/mruby-polarssl"]
+	path = modules/mruby-polarssl
+	url = https://github.com/luisbebop/mruby-polarssl
+[submodule "modules/mruby-mtest"]
+	path = modules/mruby-mtest
+	url = https://github.com/iij/mruby-mtest
+[submodule "modules/mruby-pack"]
+	path = modules/mruby-pack
+	url = https://github.com/iij/mruby-pack
+[submodule "modules/mruby-qrcode"]
+	path = modules/mruby-qrcode
+	url = https://github.com/sadasant/mruby-qrcode
+[submodule "modules/mruby-socket"]
+	path = modules/mruby-socket
+	url = https://github.com/iij/mruby-socket
+[submodule "modules/mruby-sleep"]
+	path = modules/mruby-sleep
+	url = https://github.com/matsumoto-r/mruby-sleep
+[submodule "modules/mruby-dir"]
+	path = modules/mruby-dir
+	url = https://github.com/cloudwalkio/mruby-dir
+[submodule "modules/mruby-tempfile"]
+	path = modules/mruby-tempfile
+	url = https://github.com/iij/mruby-tempfile
+[submodule "modules/mruby-require"]
+	path = modules/mruby-require
+	url = https://github.com/iij/mruby-require
+[submodule "modules/mruby-miniz"]
+	path = modules/mruby-miniz
+	url = https://github.com/scalone/mruby-miniz
+[submodule "modules/mruby-json"]
+	path = modules/mruby-json
+	url = https://github.com/mattn/mruby-json
+[submodule "modules/mruby-hs-regexp"]
+	path = modules/mruby-hs-regexp
+	url = https://github.com/masamitsu-murase/mruby-hs-regexp
+[submodule "modules/mruby-io"]
+	path = modules/mruby-io
+	url = https://github.com/iij/mruby-io
+[submodule "modules/mruby-msgpack"]
+	path = modules/mruby-msgpack
+	url = https://github.com/scalone/mruby-msgpack
+[submodule "modules/mruby-context"]
+	path = modules/mruby-context
+	url = https://github.com/scalone/mruby-context
