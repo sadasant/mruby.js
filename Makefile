@@ -15,7 +15,7 @@ libmruby.a:
 
 emscripten:
 	emcc -I${MRUBY_DIR}/include -Wall mruby.js.c -o mruby.js.o
-	emcc mruby.js.o ${MRUBY_DIR}/build/host/lib/libmruby.a -o mruby.js
+	emcc mruby.js.o ${MRUBY_DIR}/build/host/lib/libmruby.a -o mruby.js -s EXPORT_ALL=1
 
 clean:
 	cd ${MRUBY_DIR} && ${make_tool} clean
