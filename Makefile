@@ -14,7 +14,8 @@ libmruby.a:
 	cd ${MRUBY_DIR} && (MRUBY_CONFIG=../../build_config.rb ${make_tool})
 
 emscripten:
-	emcc ${MRUBY_DIR}/build/host/lib/libmruby.a -02
+	emcc -I${MRUBY_DIR}/include -Wall mruby.js.c -o mruby.js.o
+	emcc mruby.js.o ${MRUBY_DIR}/build/host/lib/libmruby.a -o mruby.js
 
 clean:
 	cd ${MRUBY_DIR} && ${make_tool} clean
