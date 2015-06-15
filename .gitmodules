@@ -1,6 +1,3 @@
-[submodule "modules/mruby"]
-	path = modules/mruby
-	url = https://github.com/mruby/mruby
 [submodule "modules/mruby-polarssl"]
 	path = modules/mruby-polarssl
 	url = https://github.com/luisbebop/mruby-polarssl
