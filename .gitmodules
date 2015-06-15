@@ -43,3 +43,6 @@
 [submodule "modules/mruby-context"]
 	path = modules/mruby-context
 	url = https://github.com/scalone/mruby-context
+[submodule "modules/mruby"]
+	path = modules/mruby
+	url = https://github.com/scalone/mruby
